@@ -20,7 +20,7 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Auth::routes();
-
+// nueva descip
 //agrega todos las rutas y acciones configuradas automatic
 Route::resource('/gastos', 'GastoController');
 // agrege una ruta nueva
