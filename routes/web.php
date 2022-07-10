@@ -23,7 +23,7 @@ Auth::routes();
 
 //agrega todos las rutas y acciones configuradas automatic
 Route::resource('/gastos', 'GastoController');
-
+// agrege una ruta nueva
 /*Route::resource('/gastos/{id}/edit', 'GastoController');
 
 Route::resource('/gastos/{id}/update', 'GastoController');
